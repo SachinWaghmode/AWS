@@ -1,4 +1,4 @@
-Key Steps Are:
+ # Key Steps Are:
 
 Setup Key Pair for EC2 and Download PEM file.
 Create VPC:  cmpe281 (Using Wizard).
@@ -8,14 +8,14 @@ PHP Setup on EC2 Linux AMI.
 PHP Test.
 Create PHP AMI Image.
 
-SETUP - CREATE EC2 KEY PAIR & ELASTIC IP
+# SETUP - CREATE EC2 KEY PAIR & ELASTIC IP
 
 In the EC2 Dashboard for Region: US West (N. California), create an EC2 Key Pair named:  cmpe281-us-west-1
 Download the Key Pair to your local machine and set it's permissions appropriately
 In the EC2 Dashboard, Elastic IP section, allocate a new Elastic IP in VPC Scope.
 
 
-PART 1 - CREATE VPC
+# PART 1 - CREATE VPC
 
 Go to the VPC Dashboard and Start the VPC Wizard in Region:  US West (N. California) -- i.e. Region: us-west-1.
 
@@ -59,7 +59,7 @@ Make sure to select "check-box" for:  Monitor and report external resource chang
     Netmask =                   255.255.255.0
     Wildcard Mask =             0.0.0.255
 
-PART 2 - LAUNCH EC2 INSTANCE & CREATE AMI
+# PART 2 - LAUNCH EC2 INSTANCE & CREATE AMI
 
 Launch a new EC2 Instance into your CMPE281 VPC as follows:
 Amazon Linux AMI 
