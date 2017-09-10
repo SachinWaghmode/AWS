@@ -1,0 +1,2 @@
+In this Lab, you will be creating a small three instance auto-scaled cluster using the Linux AMI from your previous Lab. 
+You will then configure an Elastic Load Balancer and create load on instances to observe Cloud Elasticity at work.
