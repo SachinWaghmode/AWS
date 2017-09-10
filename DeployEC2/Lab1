@@ -1,0 +1,4 @@
+In this Lab, you will be setting up your AWS account with SSH keys to access EC2 and 
+then will launch a Amazon Linux "Free-Tier" AMI to install a LAMP Stack. 
+You will then deploy some PHP code to remotely create "Load" on the Linux VM 
+and observe the CPU utilization.
