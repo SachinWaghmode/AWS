@@ -1,8 +1,9 @@
-#Key Steps Are:
+# Key Steps Are:
 
-Create or Select a Launch Configuration
-Create an Auto Scaling Group
-Using a Load Balancer With an Auto Scaling Group
+    Create or Select a Launch Configuration
+    Create an Auto Scaling Group
+    Using a Load Balancer With an Auto Scaling Group
+
 
 PART 1 - CREATE LAUNCH CONFIG AND AUTOSCALE GROUP
 
@@ -34,8 +35,8 @@ PART 1 - CREATE LAUNCH CONFIG AND AUTOSCALE GROUP
     Increase when:                    AVG CPU >= 40% (for at lease 1 minute)
     Decrease when:                   AVG CPU <= 15% (for at lease 1 minute)
     
-PART 2 - CREATE CLASSIC LOAD BALANCER
 
+PART 2 - CREATE CLASSIC LOAD BALANCER
     
 # Tutorial: Set Up a Scaled and Load-Balanced Application
 
