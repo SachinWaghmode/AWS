@@ -1,0 +1,9 @@
+In this Lab, you will be working with a sample implementation of the Restbucks API implemented in Java with Restlet.  You will test the API locally with Postman, Deploy and test using a Local Docker Host, and finally deploy to Docker Cloud.
+
+Key Steps:
+
+Install Docker Toolbox or Native Docker
+Setup Docker Cloud with your AWS Account
+Install Postman REST API Testing Tool
+Build the Restbucks API Project (will need Gradle)
+Test/Deploy Restbucks
